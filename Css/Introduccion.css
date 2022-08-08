@@ -16,7 +16,19 @@
 }
 .introduccion{
     margin-left: 15%;
+    height: 600px;
+    background-image: url("../Assets/Images/meso2.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size:contain;
 }
-.btn{
+.btn-success{
     margin-left: 20%;
+}
+.Formulario{
+    border-radius: 6x;
+}
+.informacion{
+    font-weight: normal;
+    font-size: 150%;
 }
