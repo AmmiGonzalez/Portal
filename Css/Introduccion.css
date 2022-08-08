@@ -32,3 +32,15 @@
     font-weight: normal;
     font-size: 150%;
 }
+.parallax {
+    background-image: url(../Assets/Images/meso3.png);
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sombra{
+    box-shadow: 10px 10px 5px #bcbcbc;
+    margin-bottom: 30px;
+}
