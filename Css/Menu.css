@@ -1,0 +1,55 @@
+/* Colores y formatos de Menú de Navegación */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-size: cover;
+}
+nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: #FFFFFF;
+    font-size: 90%;
+    margin-top: 50px;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: #007041;
+}
+.menu-horizontal > li > a{
+    display: block;
+    padding-left: 0px;
+    color: #007041;
+    text-decoration: none;
+}
+.menu-horizontal >li:hover{
+    background-color: #F9F9F9;
+    text-decoration: underline;
+    text-decoration-color: #007041;
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: #FFFFFF;
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: #F9F9F9;
+}
+.menu-vertical > li > a{
+    display: block;
+    color: #007041;
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+}
